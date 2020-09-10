@@ -11,12 +11,15 @@ section{
     
 }
 
+
 .nav-bar{
     width: 100%;
     height: 15vh;
     margin: auto;
     display:flex;
     align-items: center;
+    justify-content: space-between;
+
 }
 .logo{
     width: 40px;
@@ -24,13 +27,16 @@ section{
     padding-left: 5%;
 }
 .fa.fa-shopping-cart{
-    width: 100px;
+    width: 150px;
     cursor: pointer;
-    display: flex-end;
+    padding-left: 140%;
     
 }
+.nav-bar i{
+    font-size: 30px;
+}
 .nav-bar{
-    flex: 1;
+
     margin: auto;
     padding-left: 20px;
     justify-content: space-between;
@@ -42,6 +48,7 @@ section{
     display: flex;
     justify-content: center;
     list-style: none;
+    padding-left: 150%;
 }
 
 .nav-bar ul li a{
